@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/mongdb", 
+  process.env.MONGODB_URI || "mongodb://localhost/17-fitnesstracker", 
   {
   useNewUrlParser: true,
   useUnifiedTopology:true,
